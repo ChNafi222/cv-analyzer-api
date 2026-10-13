@@ -63,7 +63,3 @@ Protected routes require an `Authorization: Bearer <token>` header, obtained fro
 
 - **User** — `id`, `username`, `hashed_password`
 - **Analysis** — `id`, `user_id` (FK → User), `score`, `matching_skills`, `missing_skills`, `summary`
-
-## Author
-
-Built by [Abdul Munaf (Nafi)](https://github.com/ChNafi222) as a hands-on project to learn Python and backend development with FastAPI.
